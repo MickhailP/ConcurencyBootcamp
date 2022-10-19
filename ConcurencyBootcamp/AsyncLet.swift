@@ -42,8 +42,6 @@ class TaskGroupDataManager{
                     try? await self.fetchImage(url: url)
                 }
             }
-           
-           
             
             for try await image in group {
                 if let image = image {
@@ -114,6 +112,8 @@ struct AsyncLet: View {
                 }
             }
             .navigationTitle("Async let and Task group")
+            
+            //this tasks cancels automatically when view disappears 
             .task {
                 await vm.getImages()
             }

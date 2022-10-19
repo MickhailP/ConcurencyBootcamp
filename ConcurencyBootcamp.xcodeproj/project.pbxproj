@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D722443028F7398B00E047C5 /* TaskBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D722442F28F7398B00E047C5 /* TaskBootcamp.swift */; };
+		D72AE73428FB04760062F874 /* ContinuationsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72AE73328FB04760062F874 /* ContinuationsBootcamp.swift */; };
 		D79727FC28F5D52C0094D022 /* ConcurencyBootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79727FB28F5D52C0094D022 /* ConcurencyBootcampApp.swift */; };
 		D79727FE28F5D52C0094D022 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79727FD28F5D52C0094D022 /* ContentView.swift */; };
 		D797280028F5D5300094D022 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79727FF28F5D5300094D022 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 		D797282628F5D66C0094D022 /* DoCatchThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797282528F5D66C0094D022 /* DoCatchThrows.swift */; };
 		D797282828F5E8EC0094D022 /* DownloadImageAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797282728F5E8EC0094D022 /* DownloadImageAwait.swift */; };
 		D797282A28F72E9B0094D022 /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797282928F72E9B0094D022 /* AsyncAwaitBootcamp.swift */; };
+		D79D15842900532C00EAD69C /* StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79D15832900532C00EAD69C /* StructClassActor.swift */; };
 		D7FFFC5028F86FBD002BFBD4 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFFC4F28F86FBD002BFBD4 /* AsyncLet.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		D722442F28F7398B00E047C5 /* TaskBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBootcamp.swift; sourceTree = "<group>"; };
+		D72AE73328FB04760062F874 /* ContinuationsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinuationsBootcamp.swift; sourceTree = "<group>"; };
 		D79727F828F5D52B0094D022 /* ConcurencyBootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConcurencyBootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79727FB28F5D52C0094D022 /* ConcurencyBootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurencyBootcampApp.swift; sourceTree = "<group>"; };
 		D79727FD28F5D52C0094D022 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,6 +52,7 @@
 		D797282528F5D66C0094D022 /* DoCatchThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchThrows.swift; sourceTree = "<group>"; };
 		D797282728F5E8EC0094D022 /* DownloadImageAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAwait.swift; sourceTree = "<group>"; };
 		D797282928F72E9B0094D022 /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
+		D79D15832900532C00EAD69C /* StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActor.swift; sourceTree = "<group>"; };
 		D7FFFC4F28F86FBD002BFBD4 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +110,8 @@
 				D797282928F72E9B0094D022 /* AsyncAwaitBootcamp.swift */,
 				D722442F28F7398B00E047C5 /* TaskBootcamp.swift */,
 				D7FFFC4F28F86FBD002BFBD4 /* AsyncLet.swift */,
+				D72AE73328FB04760062F874 /* ContinuationsBootcamp.swift */,
+				D79D15832900532C00EAD69C /* StructClassActor.swift */,
 				D79727FF28F5D5300094D022 /* Assets.xcassets */,
 				D797280128F5D5300094D022 /* Preview Content */,
 			);
@@ -259,12 +265,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D797282828F5E8EC0094D022 /* DownloadImageAwait.swift in Sources */,
+				D72AE73428FB04760062F874 /* ContinuationsBootcamp.swift in Sources */,
 				D797282628F5D66C0094D022 /* DoCatchThrows.swift in Sources */,
 				D7FFFC5028F86FBD002BFBD4 /* AsyncLet.swift in Sources */,
 				D79727FE28F5D52C0094D022 /* ContentView.swift in Sources */,
 				D722443028F7398B00E047C5 /* TaskBootcamp.swift in Sources */,
 				D797282A28F72E9B0094D022 /* AsyncAwaitBootcamp.swift in Sources */,
 				D79727FC28F5D52C0094D022 /* ConcurencyBootcampApp.swift in Sources */,
+				D79D15842900532C00EAD69C /* StructClassActor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
