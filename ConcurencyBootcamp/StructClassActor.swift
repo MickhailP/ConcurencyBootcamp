@@ -17,7 +17,7 @@ import SwiftUI
  - When you assign  or pass value type a new copy of data is created
  
  REFERENCE TYPE:
- - CLASS ACTOR Functions
+ - CLASS ACTOR Function
  - Stored in HEAP
  - Slower , but synchronised
  - NOT THREAD Safe by default

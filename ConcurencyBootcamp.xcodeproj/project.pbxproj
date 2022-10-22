@@ -17,6 +17,7 @@
 		D797282628F5D66C0094D022 /* DoCatchThrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797282528F5D66C0094D022 /* DoCatchThrows.swift */; };
 		D797282828F5E8EC0094D022 /* DownloadImageAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797282728F5E8EC0094D022 /* DownloadImageAwait.swift */; };
 		D797282A28F72E9B0094D022 /* AsyncAwaitBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D797282928F72E9B0094D022 /* AsyncAwaitBootcamp.swift */; };
+		D79977BC2901DD5B00A8E931 /* ActorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79977BB2901DD5B00A8E931 /* ActorBootcamp.swift */; };
 		D79D15842900532C00EAD69C /* StructClassActor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D79D15832900532C00EAD69C /* StructClassActor.swift */; };
 		D7FFFC5028F86FBD002BFBD4 /* AsyncLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FFFC4F28F86FBD002BFBD4 /* AsyncLet.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +53,7 @@
 		D797282528F5D66C0094D022 /* DoCatchThrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoCatchThrows.swift; sourceTree = "<group>"; };
 		D797282728F5E8EC0094D022 /* DownloadImageAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadImageAwait.swift; sourceTree = "<group>"; };
 		D797282928F72E9B0094D022 /* AsyncAwaitBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitBootcamp.swift; sourceTree = "<group>"; };
+		D79977BB2901DD5B00A8E931 /* ActorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorBootcamp.swift; sourceTree = "<group>"; };
 		D79D15832900532C00EAD69C /* StructClassActor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructClassActor.swift; sourceTree = "<group>"; };
 		D7FFFC4F28F86FBD002BFBD4 /* AsyncLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncLet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,6 +114,7 @@
 				D7FFFC4F28F86FBD002BFBD4 /* AsyncLet.swift */,
 				D72AE73328FB04760062F874 /* ContinuationsBootcamp.swift */,
 				D79D15832900532C00EAD69C /* StructClassActor.swift */,
+				D79977BB2901DD5B00A8E931 /* ActorBootcamp.swift */,
 				D79727FF28F5D5300094D022 /* Assets.xcassets */,
 				D797280128F5D5300094D022 /* Preview Content */,
 			);
@@ -268,6 +271,7 @@
 				D72AE73428FB04760062F874 /* ContinuationsBootcamp.swift in Sources */,
 				D797282628F5D66C0094D022 /* DoCatchThrows.swift in Sources */,
 				D7FFFC5028F86FBD002BFBD4 /* AsyncLet.swift in Sources */,
+				D79977BC2901DD5B00A8E931 /* ActorBootcamp.swift in Sources */,
 				D79727FE28F5D52C0094D022 /* ContentView.swift in Sources */,
 				D722443028F7398B00E047C5 /* TaskBootcamp.swift in Sources */,
 				D797282A28F72E9B0094D022 /* AsyncAwaitBootcamp.swift in Sources */,
