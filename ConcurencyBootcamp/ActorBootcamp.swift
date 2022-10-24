@@ -26,6 +26,7 @@ class MyDataManager {
 }
 
 actor MyActorDataManager {
+    
     static let instance = MyActorDataManager()
     
     private init() { }
@@ -103,7 +104,7 @@ struct BrowseView: View {
             Text(text)
                 .font(.title)
         }
-        onReceive(timer) { _ in
+        .onReceive(timer) { _ in
             DispatchQueue.global(qos: .background).async {
                 
                 manager.getRandomData { title in
